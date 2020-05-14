@@ -20,8 +20,8 @@ function currentLine(people) {
     copyline += (i + 1) + ". " + people[i] + ", ";
     copyline = copyline.slice(0, copyline.length - 2)
   return "The line is currently: " + copyline;
+}
 } else if (people.length === 0) {
   return "The line is currently empty."
-}
 }
 }
