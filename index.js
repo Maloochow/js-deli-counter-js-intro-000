@@ -18,7 +18,7 @@ function currentLine(people) {
   var copyline = ""
   for (let i = 0; i < people.length; i += 1) {
     copyline += (i + 1) + ". " + people[i] + ", ";
-    copyline = copyline.slice(0, copyline.length - 2)
+
   return "The line is currently: " + copyline;
 }
 } else if (people.length === 0) {
